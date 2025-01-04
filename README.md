@@ -120,11 +120,11 @@ Por exemplo, é possível observar o rótulo da cerveja Maraca, uma cerveja Pils
 
 <h2> 🎵 Funcionalidades 🎵 </h2>
 
-:heavy_check_mark: 
+:heavy_check_mark: Pesquisa de alimentos ideais para harmonização com um determinado estilo de cerveja artesanal;
 
-:heavy_check_mark: 
+:heavy_check_mark: Avaliador de cor e amargor de cervejas artesanais baseado nas escalas EBC e IBU;
 
-:heavy_check_mark: 
+:heavy_check_mark: Seletor de cervejas artesanais baseado na preferência do consumidor;
 
 :heavy_check_mark: 
 
