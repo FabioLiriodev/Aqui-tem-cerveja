@@ -65,9 +65,9 @@ O logotipo do Aqui tem cerveja foi desenvolvido no aplicativo Canva através de 
 
 A paleta de cores selecionada para o projeto foi obtida com o auxílio da escala de cores da European Brewery Convention (EBC) que é responsável pela classificação de cores das cervejas artesanais, classificando-as em cervejas claras com tons de amarelo claro até cervejas escuras com tons de vermelho a castanho escuro.
 
-<picture>![Paleta de cores - parte 1](https://github.com/user-attachments/assets/5db12aa4-0966-46e7-a0c9-1c8dd307b34a)</picture>
+![Paleta de cores - parte 1](https://github.com/user-attachments/assets/5db12aa4-0966-46e7-a0c9-1c8dd307b34a)
 
-<picture>![Paleta de Cores 2](https://github.com/user-attachments/assets/f5124a3a-2887-4af5-b058-d89329f17383)</picture>
+![Paleta de Cores 2](https://github.com/user-attachments/assets/f5124a3a-2887-4af5-b058-d89329f17383)
 
 A paleta de cores envolve a seleção de cores mais quentes que remetem às cores dos diferentes estilos de cervejas. Por exemplo, as cervejas do estilo Pilsen são amarelas, as cervejas do estilo Red Ale são vermelho acobreadas, enquanto as cervejas do tipo Indian Pale Ale (IPA) apresentam diferentes tons de castanho. Dessa forma, a paleta de cores foi inteiramente baseada na identificação de cores da escala proposta pela EBC.
 
