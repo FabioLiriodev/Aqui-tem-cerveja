@@ -1,0 +1,211 @@
+[
+    {
+      "alimento": "Bolinho de bacalhau",
+      "descricao": "Harmonização com estilo Session IPA",
+      "imagem": "https://i.imgur.com/example.jpg"
+    },
+
+    {
+      "alimento": "guacamole",
+      "descricao": "Harmonização com estilo Session IPA",
+      "imagem": "https://i.imgur.com/example.jpg"
+    },
+
+    {
+        "alimento": "Pizza de calabresa",
+        "descricao": "Harmonização com estilo APA",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Batatas fritas",
+        "descricao": "Harmonização com estilo APA",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Hambúrguer artesanal",
+        "descricao": "Harmonização com estilo IPA",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Comida indiana",
+        "descricao": "Harmonização com estilo IPA",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Costela",
+        "descricao": "Harmonização com estilo IPA",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Batatas fritas",
+        "descricao": "Harmonização com estilo Lager",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Petiscos de boteco",
+        "descricao": "Harmonização com estilo Lager",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Churrasco",
+        "descricao": "Harmonização com estilo Lager",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Queijos crus",
+        "descricao": "Harmonização com estilo Weiss",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Salsichas alemãs",
+        "descricao": "Harmonização com estilo Weiss",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Queijos assados",
+        "descricao": "Harmonização com estilo Golden Ale",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Comida mexicana",
+        "descricao": "Harmonização com estilo Golden Ale",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Ostras",
+        "descricao": "Harmonização com estilo Golden Ale",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Sobremesas com chocolate",
+        "descricao": "Harmonização com estilo Golden Ale",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Queijos curados",
+        "descricao": "Harmonização com estilo Dunkel",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Doce de leite",
+        "descricao": "Harmonização com estilo Dunkel",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Queijo minas",
+        "descricao": "Harmonização com estilo Amber Lager",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Joelho de porco",
+        "descricao": "Harmonização com estilo Amber Lager",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Chocolate Amargo",
+        "descricao": "Harmonização com estilo Amber Lager",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Torta de nozes",
+        "descricao": "Harmonização com estilo Stout",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Petit Gateau",
+        "descricao": "Harmonização com estilo Stout",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Queijo gorgonzola",
+        "descricao": "Harmonização com estilo Stout",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Salame",
+        "descricao": "Harmonização com estilo Stout",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Queijo brie",
+        "descricao": "Harmonização com estilo Witbier",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Queijo Camembert",
+        "descricao": "Harmonização com estilo Witbier",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Isca de tilápia",
+        "descricao": "Harmonização com estilo Witbier",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Crustáceos e frutos do mar",
+        "descricao": "Harmonização com estilo Witbier",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Amendoim",
+        "descricao": "Harmonização com estilo Pilsen",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Petiscos de boteco",
+        "descricao": "Harmonização com estilo Pilsen",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Comida oriental",
+        "descricao": "Harmonização com estilo Pilsen",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Frango assado",
+        "descricao": "Harmonização com estilo Pilsen",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Azeitonas",
+        "descricao": "Harmonização com estilo Pilsen",
+        "imagem": "https://i.imgur.com/example.jpg"
+      },
+
+      {
+        "alimento": "Salgadinhos fritos e assados",
+        "descricao": "Harmonização com estilo Pilsen",
+        "imagem": "https://i.imgur.com/example.jpg"
+      }
+]
