@@ -2,156 +2,156 @@
     {
         "Nome": "Boa Viagem",
         "Estilo": "Amber Lager",
-        "Teor alcoólico": "4.8",
+        "Teor": "4.8",
         "IBU": "20",
         "Cor": "Âmbar",
         "Imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/cerveja-amber-lager.png",
         "Alt": "Garrafa de cerveja amber lager chamada Boa Viagem",
-        "Descrição": "Cerveja clara com encorpamento médio, boa drinkability e sabor de caramelo levemente tostado. Fabricada em homenagem a Praia de Boa Viagem"
+        "Descricao": "Cerveja clara com encorpamento médio, boa drinkability e sabor de caramelo levemente tostado. Fabricada em homenagem a Praia de Boa Viagem"
 
     },
 
     {
         "Nome": "Forró",
         "Estilo": "American Pale Ale",
-        "Teor alcoólico": "5.5",
+        "Teor": "5.5",
         "IBU": "30",
         "Cor": "Cobre",
         "Imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/cerveja-apa.png",
         "Alt": "Garrafa de cerveja APA chamada Forró",
-        "Descrição": "Cerveja escura com encorpamento médio, amargor moderado e sabor cítrico e herbal. Fabricada em homenagem ao estilo musical forró."
+        "Descricao": "Cerveja escura com encorpamento médio, amargor moderado e sabor cítrico e herbal. Fabricada em homenagem ao estilo musical forró."
 
     },
 
     {
         "Nome": "Docinho de Leite",
         "Estilo": "Dunkel",
-        "Teor alcoólico": "5.0",
+        "Teor": "5.0",
         "IBU": "25",
         "Cor": "Castanho escuro",
         "Imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/cerveja-dunkel.png",
         "Alt": "Garrafa de cerveja Dunkel chamada Docinho de Leite",
-        "Descrição": "Cerveja escura com cremosidade médio, amargor leve e sabor de caramelo tostado e nozes. Fabricada em homenagem ao doce de leite de Minas Gerais."
+        "Descricao": "Cerveja escura com cremosidade médio, amargor leve e sabor de caramelo tostado e nozes. Fabricada em homenagem ao doce de leite de Minas Gerais."
 
     },
 
     {
         "Nome": "Sol Dourado",
         "Estilo": "Golden Ale",
-        "Teor alcoólico": "4.5",
+        "Teor": "4.5",
         "IBU": "14",
         "Cor": "Dourada",
         "Imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/cerveja-golden-ale.png",
         "Alt": "Garrafa de cerveja Golden Ale chamada Sol Dourado",
-        "Descrição": "Cerveja clara de corpo leve, amargor leve e sabor malteado. Fabricada em homenagem às praias do Rio de Janeiro."
+        "Descricao": "Cerveja clara de corpo leve, amargor leve e sabor malteado. Fabricada em homenagem às praias do Rio de Janeiro."
 
     },
 
     {
         "Nome": "Alegria Pura",
         "Estilo": "Lager",
-        "Teor alcoólico": "4.0",
+        "Teor": "4.0",
         "IBU": "10",
         "Cor": "Palha",
         "Imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/cerveja-lager.png",
         "Alt": "Garrafa de cerveja Lager chamada Alegria pura",
-        "Descrição": "Cerveja clara ultrafiltrada de corpo leve, boa drinkability, baixíssimo amargor e sabor malteado. Não contém glúten. Fabricada em homenagem ao Carnaval."
+        "Descricao": "Cerveja clara ultrafiltrada de corpo leve, boa drinkability, baixíssimo amargor e sabor malteado. Não contém glúten. Fabricada em homenagem ao Carnaval."
 
     },
 
     {
         "Nome": "Maraca",
         "Estilo": "Pilsen",
-        "Teor alcoólico": "4.4",
+        "Teor": "4.4",
         "IBU": "12",
         "Cor": "Amarela",
         "Imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/cerveja-pilsen.png",
         "Alt": "Garrafa de cerveja Pilsen chamada Maraca",
-        "Descrição": "Cerveja clara de corpo leve, boa drinkability, baixíssimo amargor e sabor moderadamente malteado. Fabricada em homenagem ao estádio do Maracanã."
+        "Descricao": "Cerveja clara de corpo leve, boa drinkability, baixíssimo amargor e sabor moderadamente malteado. Fabricada em homenagem ao estádio do Maracanã."
 
     },
 
     {
         "Nome": "Pipas",
         "Estilo": "Indian Pale Ale",
-        "Teor alcoólico": "7.5",
+        "Teor": "7.5",
         "IBU": "50",
         "Cor": "Castanho",
         "Imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/cerveja-ipa.png",
         "Alt": "Garrafa de cerveja ipa chamada Pipas",
-        "Descrição": "Cerveja escura de corpo moderado, elevado amargor e sabor com notas frutadas. Fabricada em homenagem às pipas."
+        "Descricao": "Cerveja escura de corpo moderado, elevado amargor e sabor com notas frutadas. Fabricada em homenagem às pipas."
 
     },
 
     {
         "Nome": "Garantido",
         "Estilo": "Red Ale",
-        "Teor alcoólico": "5.0",
+        "Teor": "5.0",
         "IBU": "20",
         "Cor": "Cobre intenso",
         "Imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/cerveja-red-ale.png",
         "Alt": "Garrafa de cerveja Red Ale chamada Garantido",
-        "Descrição": "Cerveja escura de corpo moderado, baixo amargor e sabor com notas moderadamente malteadas e levemente tostadas. Fabricada em homenagem ao Boi Garantido do Festival de Parintins."
+        "Descricao": "Cerveja escura de corpo moderado, baixo amargor e sabor com notas moderadamente malteadas e levemente tostadas. Fabricada em homenagem ao Boi Garantido do Festival de Parintins."
 
     },
 
     {
         "Nome": "Terra da Garoa",
         "Estilo": "Session IPA",
-        "Teor alcoólico": "5.2",
+        "Teor": "5.2",
         "IBU": "30",
         "Cor": "Castanho claro",
         "Imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/cerveja-session-ipa.png",
         "Alt": "Garrafa de cerveja Session ipa chamada Terra da Garoa",
-        "Descrição": "Cerveja escura de corpo moderado, amargor moderado e sabor marcante de frutas cítricas. Fabricada em homenagem à cidade de São Paulo."
+        "Descricao": "Cerveja escura de corpo moderado, amargor moderado e sabor marcante de frutas cítricas. Fabricada em homenagem à cidade de São Paulo."
 
     },
 
     {
         "Nome": "Goiabada",
         "Estilo": "Sour",
-        "Teor alcoólico": "4.2",
+        "Teor": "4.2",
         "IBU": "26",
         "Cor": "Âmbar",
         "Imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/cerveja-sour.png",
         "Alt": "Garrafa de cerveja sour chamada Goiabada",
-        "Descrição": "Cerveja clara de corpo leve, amargor leve e sabor marcante de goiabada. Fabricada em homenagem ao doce goiabada."
+        "Descricao": "Cerveja clara de corpo leve, amargor leve e sabor marcante de goiabada. Fabricada em homenagem ao doce goiabada."
 
     },
 
     {
         "Nome": "Cafezín",
         "Estilo": "Stout",
-        "Teor alcoólico": "7.0",
+        "Teor": "7.0",
         "IBU": "40",
         "Cor": "Preta",
         "Imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/cerveja-stout.png",
         "Alt": "Garrafa de cerveja stout chamada Cafezín",
-        "Descrição": "Cerveja escura de corpo moderado, amargor moderado e sabor intenso de café com notas de chocolate. Fabricada em homenagem ao café."
+        "Descricao": "Cerveja escura de corpo moderado, amargor moderado e sabor intenso de café com notas de chocolate. Fabricada em homenagem ao café."
 
     },
 
     {
         "Nome": "Bananada",
         "Estilo": "Weiss",
-        "Teor alcoólico": "5.5",
+        "Teor": "5.5",
         "IBU": "15",
         "Cor": "Amarela",
         "Imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/cerveja-weiss.png",
         "Alt": "Garrafa de cerveja weiss chamada Bananada",
-        "Descrição": "Cerveja clara de corpo moderado, amargor leve e sabor marcante de banana. Fabricada em homenagem ao doce bananada."
+        "Descricao": "Cerveja clara de corpo moderado, amargor leve e sabor marcante de banana. Fabricada em homenagem ao doce bananada."
 
     },
 
     {
         "Nome": "Copabeer",
         "Estilo": "Witbier",
-        "Teor alcoólico": "4.9",
+        "Teor": "4.9",
         "IBU": "12",
         "Cor": "Dourada",
         "Imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/cerveja-witbier.png",
         "Alt": "Garrafa de cerveja witbier chamada Copabeer",
-        "Descrição": "Cerveja clara de corpo leve, amargor leve e sabor marcante de laranja e semente de coentro. Fabricada em homenagem à Praia de Copacabana."
+        "Descricao": "Cerveja clara de corpo leve, amargor leve e sabor marcante de laranja e semente de coentro. Fabricada em homenagem à Praia de Copacabana."
 
     }
 ]
