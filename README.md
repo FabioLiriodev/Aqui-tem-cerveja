@@ -1,8 +1,8 @@
-<h1 align="center"> 🍺 Aqui tem Cerveja - Cervejaria Artesanal e Harmonizador de Cervejas 🍺 </h1>
+<h1 align="center"> 🍺 Cervejaria Artesanal Aqui tem Cerveja - Seletor e Harmonizador de Cervejas 🍺 </h1>
 
 <div align="center">
 
-![aquitemcerveja-logo-150px](https://github.com/user-attachments/assets/e8d06d13-bfb5-4639-92ec-05b3d29d1d38)
+![Logo pronto](https://github.com/user-attachments/assets/bd76f455-a50e-447b-9c67-f17a2919eaca)
 
 </div>
 
@@ -56,7 +56,7 @@ O logotipo do Aqui tem cerveja foi desenvolvido no aplicativo Canva através de 
 
 <div align="center">
 
-![aquitemcerveja-logo-150px](https://github.com/user-attachments/assets/e8d06d13-bfb5-4639-92ec-05b3d29d1d38)
+![Logo pronto](https://github.com/user-attachments/assets/bd76f455-a50e-447b-9c67-f17a2919eaca)
 
 
 </div>
