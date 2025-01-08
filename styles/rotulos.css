@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+:root {  
+    
+    font-size: 16px;
+    --fonte-titulo: 'PlayFair Display', serif;
+    --fonte-texto: 'Roboto Slab', serif;
+    --peso-regular: 400;
+    --peso-medio: 500;
+    --peso-bold: 700;
+    --letter-spacing: 2px;
+    --sombra-texto: 2px 2px 4px rgba(0,0,0,.3);
+
+
+    --font-size-2xl:3.75rem;
+    --font-size-xl:3rem;
+    --font-size-l: 2rem;
+    --font-size-2m: 1.5rem;
+    --font-size-m: 1.25rem;
+    --font-size-xm: 1.12rem;
+    --font-size-b: 1rem;
+    --font-size-xb: 0.87rem;
+    --font-size-s: 0.75rem;
+    --font-size-xs: 0.5rem;
+
+    --cor-amarelo-lager: #F6D77A;
+    --cor-amarelo-weiss: #DDA55E;
+    --cor-amarelo-witbier: #D28D19;
+    --cor-branco-colarinho: #E0DED2;
+    --cor-castanho-apa: #A35503;
+    --cor-castanho-pilsen: #C67808;
+    --cor-castanho-escuro-colarinho: #4E433E;
+    --cor-dourado-golden-ale: #EAA500;
+    --cor-laranja-session-ipa: #B83E00; 
+    --cor-marrom-stout: #2B0203;
+    --cor-preta-dunkel: #1F1E20;
+    --cor-vermelha-red-ale: #9B2800;
+    --cor-background: linear-gradient(90deg, rgba(221,165,94,1) 0%, rgba(210,141,25,1) 50%, rgba(198,120,8,1) 100%);
+
+    --padding-2xl:4rem;
+    --padding-xl: 3rem;
+    --padding-l: 2rem;
+    --padding-m: 1.5rem;
+    --padding-s: 1rem;
+    --padding-xs: 0.875rem;
+    --padding-2xs: 0.5rem;
+
+    --gap-2xl: 4rem;
+    --gap-xl: 3rem;
+    --gap-l: 2rem;
+    --gap-m: 1.5rem;
+    --gap-s: 1rem;
+    --gap-xs: 0.5rem;
+
+    --borda-redonda: 4px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(221,165,94,1) 0%, rgba(210,141,25,1) 50%, rgba(198,120,8,1) 100%);
+}
+
+strong {
+    font-weight: 900;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo__anuncio {
+    padding: 2.5rem 1rem 1rem 1rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-xl);
+}
+
+.conteudo__anuncio__texto {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-xl);
+
+}
+
+.conteudo__anuncio__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(/assets/img/beer-background-filter-2.JPG);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.conteudo__anuncio__texto-titulo, 
+.conteudo__anuncio__texto-subtitulo, 
+.conteudo__produtos__titulo {
+    font-family: var(--fonte-titulo);
+    font-weight: var(--peso-bold);
+}
+
+.conteudo__anuncio__texto-paragrafo {
+    font-family: var(--fonte-texto);
+    font-weight: var(--peso-regular);
+}
+
+.conteudo__anuncio__texto-titulo {
+    font-size: var(--font-size-l);
+    text-align: center;
+    color:var(--cor-vermelha-red-ale);
+    font-weight: 900;
+
+}
+
+.conteudo__anuncio__texto-subtitulo {
+    font-size: var(--font-size-m);
+    text-align: center;
+    color: var(--cor-amarelo-lager);
+    font-weight: var(--peso-bold);
+}
+
+.conteudo__anuncio__texto-paragrafo {
+    font-size: var(--font-size-b);
+    color: var(--cor-branco-colarinho);
+    text-align: left;
+}
+
+.conteudo__anuncio__botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-preta-dunkel);
+    border: 2px solid rgba(31, 30, 32, .3);
+    border-radius: var(--borda-redonda);
+    height: 3rem;
+    width:17.5rem;
+
+}
+
+.conteudo__anuncio__botao-link {
+    text-decoration: none;
+    font-family: var(--fonte-texto);
+    font-size: var(--font-size-m);
+    color: var(--cor-branco-colarinho);
+    padding: 0.5rem;
+    
+}
+
+.conteudo__anuncio__botao:hover {
+    background-color: var(--cor-castanho-escuro-colarinho);
+    border: 2px solid rgba(31, 30, 32, .1);
+}
+
+.conteudo__produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+    gap: var(--gap-m);
+}
+
+.conteudo__produtos__titulo {
+    font-size: var(--font-size-l);
+    color: var(--cor-marrom-stout);
+    margin-top: 1rem;
+}
+
+.conteudo__produtos__botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-s);
+    width: calc(100vw - 32px);
+
+}
+
+.btn-clara,
+.btn-escura,
+.btn-nome, 
+.btn-estilo, 
+.btn-teor, 
+.btn-amargor {
+    width: 80%;
+    height: 2.75rem;
+    font-family: var(--fonte-texto);
+    font-weight: var(--peso-bold);
+    font-size: var(--font-size-b);
+    color: var(--cor-branco-colarinho);
+    background-color: var(--cor-vermelha-red-ale);
+    border: 2px solid var(--cor-vermelha-red-ale);
+    border-radius: var(--borda-redonda);
+}
+
+.btn-clara:hover, .btn-escura:hover, .btn-nome:hover, .btn-estilo:hover, .btn-teor:hover, .btn-amargor:hover {
+    background-color: var(--cor-amarelo-weiss);
+    border: 2px solid var(--cor-amarelo-weiss);
+    color: var(--cor-laranja-session-ipa);
+}
+
+.cervejas__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    gap: var(--gap-s);
+}
+
+.cervejas__wrap__titulo {
+    font-size: var(--font-size-l);
+    color: var(--cor-vermelha-red-ale);
+    text-align: center;
+}
+
+.cervejas__wrap__card {
+    border: 5px solid var(--cor-castanho-apa);
+    border-radius: var(--borda-redonda);
+    padding: var(--padding-s);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 10px 20px;
+    
+    
+
+}
+
+.cervejas__wrap__card-imagem {
+    width: 15.6rem;
+}
+
+.cervejas__wrap__card-texto {
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-s);
+    gap: var(--gap-s);
+}
+
+.cervejas__wrap__card-texto-titulo {
+    font-family: var(--fonte-titulo);
+    font-size: var(--font-size-2m);
+    font-weight: 900;
+    color: var(--cor-vermelha-red-ale);
+    text-align: center;
+}
+
+.cervejas__wrap__card-texto-descricao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-xs);
+}
+
+.cervejas__wrap__card-texto-descricao-titulo {
+    font-family: var(--fonte-titulo);
+    font-size: var(--font-size-m);
+    color: var(--cor-branco-colarinho);
+}
+
+.cervejas__wrap__card-texto-descricao-paragrafo {
+    font-family: var(--fonte-texto);
+    font-size: var(--font-size-b);
+    color: var(--cor-preta-dunkel);
+}
+
+.cervejas__wrap__card-texto-info-titulo {
+    font-family: var(--fonte-titulo);
+    font-weight: var(--peso-bold);
+    font-size: var(--font-size-b);
+    color: var(--cor-laranja-session-ipa);
+}
+
+.cervejas__wrap__card-info-paragrafo {
+    font-family: var(--fonte-texto);
+    font-size: var(--font-size-b);
+    color: var(--cor-castanho-escuro-colarinho);
+    font-weight: var(--peso-regular);
+}
+
+.cervejas__wrap__card > span {
+    background-color: #D9d9d9;
+    color: var(--cor-castanho-escuro-colarinho);
+    font-family: var(--fonte-texto);
+    font-size: 12px;
+}
+
+
+}
