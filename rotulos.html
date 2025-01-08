@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cervejaria Aqui tem Cerveja | Valorização da produção de cervejas artesanais no Brasil!</title>
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/rotulos.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="cabecalho__container">
+        <img src="./assets/img/aquitemcerveja-logo100px.png" class="cabecalho__logo" alt="logo do Aqui tem cerveja">
+        <nav class="cabecalho__barra" id="nav">
+            <button aria-label="abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburguer"></span>
+            </button>
+        <ul id="menu" role="menu" class="cabecalho__barra__lista">
+            <li><a href="index.html" class="cabecalho__barra__lista-item">Início</a></li>
+            <li><a href="harmonizador.html" class="cabecalho__barra__lista-item">Rótulos</a></li>
+            <li><a href="blog.html" class="cabecalho__barra__lista-item">Planos</a></li>
+            <li><a href="sobre.html" class="cabecalho__barra__lista-item">Harmonizador</a></li>
+            <li><a href="planos.html" class="cabecalho__barra__lista-item">Sobre</a></li>
+            <div class="cabecalho__barra__lista-botao">
+            <a href="#" class="cabecalho__barra__lista-botao-login">Login</a>
+            <a href="#" class="cabecalho__barra__lista-botao-cadastro">Cadastrar</a>
+            </div>
+        </ul>
+        <div class="cabecalho__botoes">
+            <a href="#" class="cabecalho__botoes__login">Login</a>
+            <a href="#" class="cabecalho__botoes__cadastro">Cadastrar</a>
+        </div>
+        </nav>
+    </div>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo__anuncio">
+            <div class="conteudo__anuncio__background"></div>
+            <div class="conteudo__anuncio__texto">
+            <h1 class="conteudo__anuncio__texto-titulo">Conheça os rótulos da Cervejaria Aqui tem Cerveja!</h1>
+            <h2 class="conteudo__anuncio__texto-subtitulo">Um estilo de cerveja artesanal para todas as ocasiões especiais!</h2>
+            <p class="conteudo__anuncio__texto-paragrafo">Aproveite nosso <strong>seletor de cervejas artesanais</strong>  e saiba qual a cerveja ideal para o seu gosto!</p>
+        </div>
+        <div class="conteudo__anuncio__botao">
+            <a href="seletor.html" class="conteudo__anuncio__botao-link">Acessar o seletor agora!</a>
+        </div>
+        </section>
+
+        <section class="conteudo__produtos">
+            <h2 class="conteudo__produtos__titulo">Nossos rótulos</h2>
+            <div class="conteudo__produtos__botoes">
+                <button id="btnFiltrarCorClara" class="btn btn-clara" type="button" value="cerveja-clara">Cervejas Claras</button>
+                <button id="btnFiltrarCorEscura" class="btn btn-escura" type="button" value="cerveja-escura">Cervejas Escuras</button>
+                <button id="btnOrdenarPorNome" class="btn btn-nome" type="button" value="nome">Ordenar por nome</button>
+                <button id="btnOrdenarPorEstilo" class="btn btn-estilo" type="button" value="estilo">Ordenar por estilo</button>
+                <button id="btnOrdenarPorTeor" class="btn btn-teor" type="button" value="teor">Ordenar por teor alcoólico</button>
+                <button id="btnOrdenarPorAmargor" class="btn btn-amargor" type="button" value="amargor">Ordenar por amargor</button>
+            </div>
+        
+        <section class="cervejas__wrap" id="cervejas">
+        <!--    <div class="cervejas__wrap__card">
+                <img src="./assets/img/cerveja-maraca.png" class="cervejas__wrap__card-imagem" alt="cerveja pilsen maraca">
+                <div class="cervejas__wrap__card-texto">
+                    <h3 class="cervejas__wrap__card-texto-titulo">Cerveja Maraca Long Neck</h3>
+                    
+                    <div class="cervejas__wrap__card-texto-descricao">
+                    <h4 class="cervejas__wrap__card-texto-descricao-titulo">Estilo:</h4>
+                    <p class="conteudo__produtos__card-texto-descricao-paragrafo">Pilsen</p>
+                </div>
+                <div class="conteudo__produtos__card-texto-descricao">
+                    <h4 class="conteudo__produtos__card-texto-descricao-titulo">Teor alcoólico:</h4>
+                    <p class="conteudo__produtos__card-texto-descricao-paragrafo">4,5%</p>
+                </div>
+                <div class="conteudo__produtos__card-texto-descricao">
+                    <h4 class="conteudo__produtos__card-texto-descricao-titulo">Cor (EBC):</h4>
+                    <p class="conteudo__produtos__card-texto-descricao-paragrafo">Amarela</p>
+                </div>
+                <div class="conteudo__produtos__card-texto-descricao">
+                    <h4 class="conteudo__produtos__card-texto-descricao-titulo">Amargor:</h4>
+                    <p class="conteudo__produtos__card-texto-descricao-paragrafo">Baixíssimo</p>
+                </div>
+                <div class="conteudo__produtos__card-texto-descricao">
+                    <h4 class="conteudo__produtos__card-texto-descricao-titulo">Sabor:</h4>
+                    <p class="conteudo__produtos__card-texto-descricao-paragrafo">Malteado</p>
+                </div>
+                </div>
+                <div class="conteudo__produtos__card-info">
+                    <h4 class="conteudo__produtos__card-texto-info-titulo">Descrição:</h4>
+                    <p class="conteudo__produtos__card-info-paragrafo">Cerveja leve amarela clara do estilo Pilsen com sabor equilibrado.Ideal para consumir em dias quentes.</p>
+                </div>
+            </div> -->
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__imagens">
+        <img class="rodape__imagens__logo" src="./assets/img/aquitemcerveja-logo100px.png" class="cabecalho__logo" alt="logo do Aqui tem cerveja">
+        <div class="rodape__imagens__icones">
+            <img width="40" height="40" src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram-new--v1"/>
+            <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/tiktok--v1.png" alt="tiktok--v1"/>
+            <img width="40" height="40" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/>
+        </div>
+    </div>
+        <ul class="rodape__lista">
+            <li><a href="index.html" class="rodape__lista__item">Início</a></li>
+            <li><a href="harmonizador.html" class="rodape__lista__item">Rótulos</a></li>
+            <li><a href="blog.html" class="rodape__lista__item">Planos</a></li>
+            <li><a href="about.html" class="rodape__lista__item">Harmonizador</a></li>
+            <li><a href="planos.html" class="rodape__lista__item">Sobre</a></li>
+        </ul>
+        <address class="rodape__adress">Cervejaria Aqui tem Cerveja - CNPJ:XXXXXXXXX/XXXX-XX <br>
+            Rua Imaginária n. 155, Parque Industrial, Cidade da Imaginação - XX, CEP: XXXXX-XXX
+   </address>
+        <small class="rodape__small">Desenvolvido por Fábio Lirio</small>
+
+    </footer>
+    <script src="mobile-navbar.js"></script>
+    <script src="rotulos.js"></script>
+    </body>
+    </html>
