@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+@import url(./header.css);
+@import url(./rotulos.css);
+@import url(./footer.css);
+
+:root {  
+    
+    font-size: 16px;
+    --fonte-titulo: 'PlayFair Display', sans-serif;
+    --fonte-texto: 'Roboto Slab', sans-serif;
+    --peso-regular: 400;
+    --peso-medio: 500;
+    --peso-bold: 700;
+    --peso-black: 900;
+
+    --line-height: 120%;
+    --letter-spacing: 2px;
+
+    --box-shadow-cor-primaria: 2px 2px 4px rgba(0,0,0,.3);
+    --box-shadow-cor-secundaria: 2px 2px 4px rgba(0,0,0,.3);
+
+    --font-size-3xl: 4rem;
+    --font-size-2xl:3rem;
+    --font-size-xl:2.5rem;
+    --font-size-l: 2rem;
+    --font-size-xm: 1.5rem;
+    --font-size-m: 1.25rem;
+    --font-size-b: 1rem;
+    --font-size-s: 0.75rem;
+    --font-size-xs: 0.5rem;
+
+    --cor-primaria-dark: #2B0203;
+    --cor-primaria-medium: #9B2800;
+    --cor-primaria-light: #B83E00;
+    --cor-secundaria-dark: #A35503;
+    --cor-secundaria-medium: #C67808;
+    --cor-secundaria-light: #D28D19;
+    --cor-terciaria-light: #F6D77A;
+    --cor-terciaria-medium: #DDA55E;
+    --cor-terciaria-dark: #EAA500;
+    --cor-neutra-light: #E0DED2;
+    --cor-neutra-medium: #4E433E;
+    --cor-neutra-dark: #1F1E20;
+    --cor-fundo: linear-gradient(90deg, rgba(221,165,94,1) 0%, rgba(210,141,25,1) 50%, rgba(198,120,8,1) 100%);
+
+
+    --padding-5xl: 4.75rem;
+    --padding-4xl: 4.5rem;
+    --padding-3xl: 4rem;
+    --padding-2xl: 3.75rem;
+    --padding-xl: 2.5rem;
+    --padding-l: 2rem;
+    --padding-m: 1.5rem;
+    --padding-s: 1rem;
+    --padding-xs: 0.5rem;
+    --padding-2xs: 0.25rem;
+
+    --gap-3xl: 6rem;
+    --gap-2xl: 4rem;
+    --gap-xl: 3rem;
+    --gap-l: 2rem;
+    --gap-m: 1.5rem;
+    --gap-s: 1rem;
+    --gap-xs: 0.5rem;
+    --gap-2xs: 0.25rem;
+
+    --border-radius-s: 4px;
+    --border-radius-m: 20px;
+    --border-radius-l: 40px;
+
+
+h1, h2, h3, h4, h5 {
+    font-family: var(--fonte-titulo);
+}
+
+h1 {
+    font-size: var(--font-size-xl);
+    font-weight: var(--peso-black);
+}
+
+h2 {
+    font-size: var(--font-size-l);
+    font-weight: var(--peso-bold);
+}
+
+h3 {
+    font-size: var(--font-size-xm);
+    font-weight: var(--peso-medio);
+}
+
+h4 {
+    font-size: var(--font-size-m);
+    font-weight: var(--peso-medio);
+}
+
+h5 {
+    font-size: var(--font-size-b);
+    font-weight: var(--peso-medio);
+}
+
+p {
+    font-size: var(--font-size-b);
+    font-weight: var(--peso-regular);
+}
+
+body {
+    font-family: var(--fonte-texto);
+    color: var(--cor-neutra-dark);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: var(--cor-fundo);
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 var(--padding-s);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+}
+
