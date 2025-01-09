@@ -16,29 +16,29 @@ async function getBuscarCervejasDaApi() {
         elementoParaInserirCervejas.innerHTML = ''
         listaDeCervejas.forEach(cerveja => {
            
-        elementoParaInserirCervejas.innerHTML += `<div class="cervejas__wrap__card">
-                <img src="${cerveja.Imagem}" class="cervejas__wrap__card-imagem" alt="${cerveja.Alt}">
-                <div class="cervejas__wrap__card-texto">
-                    <h3 class="cervejas__wrap__card-texto-titulo">${cerveja.Nome}</h3>
-                    <div class="cervejas__wrap__card-texto-descricao">
-                    <h4 class="cervejas__wrap__card-texto-descricao-titulo">Estilo:</h4>
-                    <p class="cervejas__wrap__card-texto-descricao-paragrafo">${cerveja.Estilo}</p>
+        elementoParaInserirCervejas.innerHTML += `<div class="card">
+                <img src="${cerveja.Imagem}" class="card__imagem" alt="${cerveja.Alt}">
+                <div class="card__texto">
+                    <h3 class="card__texto__titulo">${cerveja.Nome}</h3>
+                    <div class="card__texto__descricao">
+                    <h4 class="card__texto__descricao-titulo">Estilo:</h4>
+                    <p class="card__texto__descricao-paragrafo">${cerveja.Estilo}</p>
                 </div>
-                <div class="cervejas__wrap__card-texto-descricao">
-                    <h4 class="cervejas__wrap__card-texto-descricao-titulo">Teor alcoólico:</h4>
-                    <p class="cervejas__wrap__card-texto-descricao-paragrafo">${cerveja.Teor}%</p>
+                <div class="card__texto__descricao">
+                    <h4 class="card__texto__descricao-titulo">Teor alcoólico:</h4>
+                    <p class="card__texto__descricao-paragrafo">${cerveja.Teor}%</p>
                 </div>
-                <div class="cervejas__wrap__card-texto-descricao">
-                    <h4 class="cervejas__wrap__card-texto-descricao-titulo">Cor (EBC):</h4>
-                    <p class="cervejas__wrap__card-texto-descricao-paragrafo">${cerveja.Cor}</p>
+                <div class="card__texto__descricao">
+                    <h4 class="card__texto__descricao-titulo">Cor (EBC):</h4>
+                    <p class="card__texto__descricao-paragrafo">${cerveja.Cor}</p>
                 </div>
-                <div class="cervejas__wrap__card-texto-descricao">
-                    <h4 class="cervejas__wrap__card-texto-descricao-titulo">Amargor:</h4>
-                    <p class="cervejas__wrap__card-texto-descricao-paragrafo">${cerveja.IBU} IBU</p>
+                <div class="card__texto__descricao">
+                    <h4 class="card__texto__descricao-titulo">Amargor:</h4>
+                    <p class="card__texto__descricao-paragrafo">${cerveja.IBU} IBU</p>
                 </div>
-                <div class="cervejas__wrap__card-info">
-                    <h4 class="cervejas__wrap__card-texto-info-titulo">Descrição:</h4>
-                    <p class="cervejas__wrap__card-info-paragrafo">${cerveja.Descricao}</p>
+                <div class="card__info">
+                    <h4 class="card__info__titulo">Descrição:</h4>
+                    <p class="card__info__paragrafo">${cerveja.Descricao}</p>
                 </div>
                 </div> 
                 <span>${cerveja.Categoria}</span>

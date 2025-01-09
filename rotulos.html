@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cervejaria Aqui tem Cerveja | Valorização da produção de cervejas artesanais no Brasil!</title>
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/rotulos.css">
-    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
 
     <header class="cabecalho">
         <div class="cabecalho__container">
-        <img src="./assets/img/aquitemcerveja-logo100px.png" class="cabecalho__logo" alt="logo do Aqui tem cerveja">
+        <img src="./assets/img/logo-aqui-tem-cerveja.png" class="cabecalho__logo" alt="logo do Aqui tem cerveja">
         <nav class="cabecalho__barra" id="nav">
             <button aria-label="abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
                 <span id="hamburguer"></span>
@@ -37,21 +37,23 @@
     </header>
 
     <main class="conteudo">
-        <section class="conteudo__anuncio">
-            <div class="conteudo__anuncio__background"></div>
-            <div class="conteudo__anuncio__texto">
-            <h1 class="conteudo__anuncio__texto-titulo">Conheça os rótulos da Cervejaria Aqui tem Cerveja!</h1>
-            <h2 class="conteudo__anuncio__texto-subtitulo">Um estilo de cerveja artesanal para todas as ocasiões especiais!</h2>
-            <p class="conteudo__anuncio__texto-paragrafo">Aproveite nosso <strong>seletor de cervejas artesanais</strong>  e saiba qual a cerveja ideal para o seu gosto!</p>
+        <section class="anuncio container">
+            <div class="anuncio__background"></div>
+            <div class="anuncio__texto">
+            <h1>Rótulos da Aqui tem Cerveja!</h1>
+            <h2>Uma cerveja artesanal para todas as ocasiões especiais!</h2>
+            <p>Aproveite nosso <strong>seletor de cervejas artesanais</strong>  e saiba qual a cerveja ideal para o seu gosto!</p>
         </div>
-        <div class="conteudo__anuncio__botao">
-            <a href="seletor.html" class="conteudo__anuncio__botao-link">Acessar o seletor agora!</a>
+        <div class="anuncio__botao">
+            <a href="seletor.html" class="anuncio__botao-link">Acessar o seletor agora!</a>
         </div>
         </section>
 
-        <section class="conteudo__produtos">
-            <h2 class="conteudo__produtos__titulo">Nossos rótulos</h2>
-            <div class="conteudo__produtos__botoes">
+        <section class="produtos">
+            <div class="produtos__background"></div>
+            <h2 class="produtos__titulo">Nossos rótulos</h2>
+            <h3 class="produtos__texto">Os estilos de cerveja artesanal agradam os consumidores mais exigentes!</h3>
+            <div class="produtos__botoes">
                 <button id="btnFiltrarCorClara" class="btn btn-clara" type="button" value="cerveja-clara">Cervejas Claras</button>
                 <button id="btnFiltrarCorEscura" class="btn btn-escura" type="button" value="cerveja-escura">Cervejas Escuras</button>
                 <button id="btnOrdenarPorNome" class="btn btn-nome" type="button" value="nome">Ordenar por nome</button>
@@ -59,6 +61,7 @@
                 <button id="btnOrdenarPorTeor" class="btn btn-teor" type="button" value="teor">Ordenar por teor alcoólico</button>
                 <button id="btnOrdenarPorAmargor" class="btn btn-amargor" type="button" value="amargor">Ordenar por amargor</button>
             </div>
+            </section>
         
         <section class="cervejas__wrap" id="cervejas">
         <!--    <div class="cervejas__wrap__card">
@@ -97,7 +100,7 @@
 
     <footer class="rodape">
         <div class="rodape__imagens">
-        <img class="rodape__imagens__logo" src="./assets/img/aquitemcerveja-logo100px.png" class="cabecalho__logo" alt="logo do Aqui tem cerveja">
+        <img class="rodape__imagens__logo" src="./assets/img/Logo pronto.png" class="cabecalho__logo" alt="logo do Aqui tem cerveja">
         <div class="rodape__imagens__icones">
             <img width="40" height="40" src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram-new--v1"/>
             <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/tiktok--v1.png" alt="tiktok--v1"/>
