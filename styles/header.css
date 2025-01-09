@@ -1,63 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
-
 :root {  
-    
     font-size: 16px;
-    --fonte-titulo: 'PlayFair Display', serif;
-    --fonte-texto: 'Roboto Slab', serif;
-    --peso-regular: 400;
-    --peso-bold: 700;
-    --letter-spacing: 2px;
-
-
-    --font-size-2xl:3.75rem;
-    --font-size-xl:3rem;
-    --font-size-l: 2rem;
-    --font-size-2m: 1.5rem;
-    --font-size-m: 1.25rem;
-    --font-size-b: 1rem;
-    --font-size-s: 0.75rem;
-    --font-size-xs: 0.5rem;
-
-    --cor-amarelo-lager: #F6D77A;
-    --cor-amarelo-weiss: #DDA55E;
-    --cor-amarelo-witbier: #D28D19;
-    --cor-branco-colarinho: #E0DED2;
-    --cor-castanho-apa: #A35503;
-    --cor-castanho-pilsen: #C67808;
-    --cor-castanho-escuro-colarinho: #4E433E;
-    --cor-dourado-golden-ale: #EAA500;
-    --cor-laranja-session-ipa: #B83E00; 
-    --cor-marrom-stout: #2B0203;
-    --cor-preta-dunkel: #1F1E20;
-    --cor-vermelha-red-ale: #9B2800;
-    --cor-background: linear-gradient(90deg, rgba(221,165,94,1) 0%, rgba(210,141,25,1) 50%, rgba(198,120,8,1) 100%);
-
-    --padding-2xl:4rem;
-    --padding-xl: 3rem;
-    --padding-l: 2rem;
-    --padding-m: 1.5rem;
-    --padding-s: 1rem;
-    --padding-xs: 0.875rem;
-    --padding-2xs: 0.5rem;
-
-    --gap-2xl: 4rem;
-    --gap-xl: 3rem;
-    --gap-l: 2rem;
-    --gap-m: 1.5rem;
-    --gap-s: 1rem;
-    --gap-xs: 0.5rem;
-
-    --borda-redonda: 4px;
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    
 
 .cabecalho {
-    background-color: var(--cor-preta-dunkel);
+    background-color: var(--cor-neutra-dark);
     height: 85px;
     width: 100vw;
     display: flex;
@@ -67,6 +13,11 @@
     @media(min-width: 768px) {
         padding: var(--padding-s);
     }
+}
+
+.cabecalho__logo {
+    width: 5rem;
+    height:5rem;
 }
 
 .cabecalho__container {
@@ -106,7 +57,7 @@
     font-family: var(--fonte-texto);
     font-weight: var(--peso-bold);
     font-size: var(--font-size-m);
-    color: var(--cor-amarelo-lager);
+    color: var(--cor-terciaria-light);
     letter-spacing: var(--letter-spacing);
     cursor: pointer;
 
@@ -116,7 +67,7 @@
 }
 
 .cabecalho__barra__lista-item:hover {
-    color: var(--cor-laranja-session-ipa);
+    color: var(--cor-primaria-light);
 }
 
 .cabecalho__barra__lista-botao {
@@ -159,17 +110,17 @@
 
 .cabecalho__botoes__login:hover, .cabecalho__botoes__cadastro:hover {
     opacity: 0.9;
-    background-color: var(--cor-vermelha-red-ale);
+    background-color: var(--cor-primaria-medium);
 
 }
 
 .cabecalho__botoes__login, .cabecalho__barra__lista-botao-login {
     color: #FFFFFF;
-    background-color: var(--cor-laranja-session-ipa);
+    background-color: var(--cor-primaria-light);
 }
 
 .cabecalho__botoes__cadastro, .cabecalho__barra__lista-botao-cadastro {
-    background-color: var(--cor-castanho-apa);
+    background-color: var(--cor-secundaria-dark);
     color: #FFFFFF;
 }
 
@@ -201,7 +152,7 @@
         transition: .3s ease-in;
         transform: translateX(-100%);
         visibility: hidden;
-        background-color: var(--cor-preta-dunkel);
+        background-color: var(--cor-neutra-dark);
 
     }
 
@@ -210,12 +161,12 @@
         margin: 0 1rem;
         cursor: pointer;
         display: flex;
-        border-bottom: 1px solid var(--cor-laranja-session-ipa);
+        border-bottom: 1px solid var(--cor-primaria-light);
         font-size: var(--font-size-b);
     }
 
     .cabecalho__barra__lista-item:hover {
-        color: var(--cor-laranja-destaque);
+        color: var(--cor-primaria-light);
     }
 
     #btn-mobile {
@@ -225,7 +176,7 @@
     background: none;
     cursor:pointer;
     padding: 0.5rem 1rem;
-    color:var(--cor-preto-escuro);
+    color:var(--cor-neutra-dark);
     gap: var(--gap-xs);
     font-size: var(--font-size-b);
 
@@ -240,9 +191,9 @@
 }
 
 #hamburguer {
-    border-top: 2px solid var(--cor-branco-colarinho);
+    border-top: 2px solid var(--cor-neutra-light);
     width: 20px;
-    color: var(--cor-branco-colarinho);
+    color: var(--cor-neutra-light);
 }
 
 #hamburguer::after, #hamburguer::before {
@@ -257,7 +208,7 @@
 }
 #nav.active #hamburguer {
     border-top-color: transparent;
-    color: var(--cor-vermelha-red-ale);
+    color: var(--cor-primaria-medium);
 }
 #nav.active #hamburguer::before {
     transform: rotate(135deg);
