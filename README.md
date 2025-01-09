@@ -1,8 +1,9 @@
-<h1 align="center"> 🍺 Aqui tem Cerveja - Cervejaria Artesanal e Harmonizador de Cervejas 🍺 </h1>
+<h1 align="center"> 🍺 Cervejaria Aqui tem Cerveja - Harmonizador e Seletor de Cervejas Artesanais 🍺 </h1>
 
 <div align="center">
 
-![aquitemcerveja-logo-150px](https://github.com/user-attachments/assets/e8d06d13-bfb5-4639-92ec-05b3d29d1d38)
+<img src="https://github.com/user-attachments/assets/bd76f455-a50e-447b-9c67-f17a2919eaca"
+alt="logo da cervejaria Aqui tem Cerveja" width="150" height="150">
 
 </div>
 
@@ -30,7 +31,7 @@
 
 <h2> 🖋️ Descrição do projeto 🖋️ </h2>
 
->>**Aqui tem cerveja** é um projeto Front-end de um site de uma cervejaria artesanal em que além do usuário conhecer sobre diferentes rótulos de cervejas artesanais, ele pode consultar de forma interativa com que tipo de alimento cada rótulo de cerveja combina.</p>
+>>**Aqui tem cerveja** é um projeto Front-end de um site de uma cervejaria artesanal em que além do usuário conhecer sobre diferentes rótulos de cervejas artesanais, ele pode usar duas ferramentas interativas: um harmonizador de cervejas com alimentos e um seletor de cervejas artesanais baseado em sua preferência.</p>
 
 <h2> 🖌️  Estilização do projeto 🖌️ </h2>
 
@@ -56,8 +57,8 @@ O logotipo do Aqui tem cerveja foi desenvolvido no aplicativo Canva através de 
 
 <div align="center">
 
-![aquitemcerveja-logo-150px](https://github.com/user-attachments/assets/e8d06d13-bfb5-4639-92ec-05b3d29d1d38)
-
+<img src="https://github.com/user-attachments/assets/bd76f455-a50e-447b-9c67-f17a2919eaca"
+alt="logo da cervejaria Aqui tem Cerveja" width="150" height="150">
 
 </div>
 
@@ -65,11 +66,15 @@ O logotipo do Aqui tem cerveja foi desenvolvido no aplicativo Canva através de 
 
 A paleta de cores selecionada para o projeto foi obtida com o auxílio da escala de cores da European Brewery Convention (EBC) que é responsável pela classificação de cores das cervejas artesanais, classificando-as em cervejas claras com tons de amarelo claro até cervejas escuras com tons de vermelho a castanho escuro.
 
-<picture>![Paleta de cores - parte 1](https://github.com/user-attachments/assets/5db12aa4-0966-46e7-a0c9-1c8dd307b34a)</picture>
+<div align="center">
 
-<picture>![Paleta de Cores 2](https://github.com/user-attachments/assets/f5124a3a-2887-4af5-b058-d89329f17383)</picture>
+<img src="./assets/img/paleta-de-cores.jpeg" alt="paleta de cores do Aqui tem Cerveja" width="300" height="300">
 
-A paleta de cores envolve a seleção de cores mais quentes que remetem às cores dos diferentes estilos de cervejas. Por exemplo, as cervejas do estilo Pilsen são amarelas, as cervejas do estilo Red Ale são vermelho acobreadas, enquanto as cervejas do tipo Indian Pale Ale (IPA) apresentam diferentes tons de castanho. Dessa forma, a paleta de cores foi inteiramente baseada na identificação de cores da escala proposta pela EBC.
+</div>
+
+A paleta de cores envolve a seleção de cores mais quentes que remetem às cores dos diferentes estilos de cervejas. Por exemplo, as cervejas do estilo Pilsen são amarelas, as cervejas do estilo Red Ale e Indian Pale Ale (IPA) são vermelho acobreadas, enquanto as cervejas do tipo Stout apresentam diferentes tons de castanho escuro a preto. Dessa forma, a paleta de cores foi inteiramente baseada na identificação de cores da escala proposta pela EBC.
+
+As cores neutras foram extraídas das cores de colarinhos de dois estilos diferentes de cerveja (Pilsen e Red Ale) e da cor da cerveja Stout.
 
 <h4> 🤔 Tipografia 🤔 </h4>
 
@@ -78,10 +83,8 @@ Com o objetivo de transmitir uma imagem mais rústica ao projeto, o usuário exe
 
 Após a varredura, o desenvolvedor analisou criteriosamente os dados obtidos e selecionou as seguintes fontes para criar uma identidade artesanal para o site da Cervejaria Aqui Tem Cerveja:
 
-- Fonte dos títulos: **"Metamorphous"**;
-- Fonte dos textos: **"Poppins", sans-serif**;
-
-A fonte do título foi selecionada por fazer referência as letras usadas nos rótulos de cervejas artesanais trapistas (produzidas por monges) que datam do século XV, onde se usava preferencialmente o estilo tipográfico gótico. Nos dias atuais, ainda é possível observar rótulos de cervejas artesanais com tipografias góticas como é o caso da cerveja trapista La Trappe.
+- Fonte dos títulos: **"Playfair Display"**;
+- Fonte dos textos: **"Poppins"**;
 
 As demonstrações das tipografias podem ser visualizadas na imagem abaixo:
 
@@ -95,8 +98,11 @@ As imagens dos rótulos de cervejas artesanais fictícias foram obtidas através
 
 Por exemplo, é possível observar o rótulo da cerveja Maraca, uma cerveja Pilsen que homenageia a cultura carioca e o estádio Mário Filho (Maracanã).
 
-![uma garrafa de cerveja artesanal pilsen com um rótulo amarelo que homenageia o estádio do Maracanã, nome da cerveja Maraca](https://github.com/user-attachments/assets/c25e03df-f2d8-4754-9826-bbf0db373bc4)
+<div align="center">
 
+<img src="https://github.com/user-attachments/assets/c25e03df-f2d8-4754-9826-bbf0db373bc4" alt="rótulo da cerveja artesanal fictícia maraca" width="200" height="200">
+
+</div>
 
 <h2> 🚀 Tecnologias 🚀</h2>
 
@@ -120,15 +126,15 @@ Por exemplo, é possível observar o rótulo da cerveja Maraca, uma cerveja Pils
 
 <h2> 🎵 Funcionalidades 🎵 </h2>
 
-:heavy_check_mark: 
+:heavy_check_mark: Busca de rótulos de cervejas artesanais baseadas no uso dos métodos forEach, filter e sort.
 
-:heavy_check_mark: 
+:heavy_check_mark: Harmonizador de cerveja artesanal desenvolvido para retornar a resposta de um JSON criado pelo desenvolvedor.
 
-:heavy_check_mark: 
+:heavy_check_mark: Seletor de cerveja artesanal desenvolvido para retonar a resposta de um JSON criado pelo desenvolvedor.
 
-:heavy_check_mark: 
+:heavy_check_mark: Página de login
 
-:heavy_check_mark: 
+:heavy_check_mark: Página de cadastro
 
 
 <h2> Como usar o aplicativo? 💨 </h2>
