@@ -3,6 +3,7 @@
 @import url(./header.css);
 @import url(./rotulos.css);
 @import url(./footer.css);
+@import url(./harmonizador.css);
 
 :root {  
     
@@ -43,6 +44,7 @@
     --cor-neutra-medium: #4E433E;
     --cor-neutra-dark: #1F1E20;
     --cor-fundo: linear-gradient(90deg, rgba(221,165,94,1) 0%, rgba(210,141,25,1) 50%, rgba(198,120,8,1) 100%);
+    --cor-background: linear-gradient(180deg, #F6D77A 0%, #DDA55E 50%, #EAA500 100%);
 
 
     --padding-5xl: 4.75rem;
@@ -68,6 +70,8 @@
     --border-radius-s: 4px;
     --border-radius-m: 20px;
     --border-radius-l: 40px;
+
+    --max-width-block: 75rem;
 
 
 h1, h2, h3, h4, h5 {
@@ -110,7 +114,7 @@ body {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    background: var(--cor-fundo);
+    background: var(--cor-background);
 }
 
 .conteudo {

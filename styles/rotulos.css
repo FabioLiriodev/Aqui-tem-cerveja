@@ -39,7 +39,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     background-image: url(/assets/img/beer-background-filter.JPG);
     background-size: cover;
     background-position: center center;
@@ -172,13 +172,30 @@
     flex-direction: column;
     align-items: center;
     box-shadow: 0 10px 20px var(--cor-primaria-light);
-    
-    
+    transform: transition 0.3s ease;
 
+}
+
+.card:nth-child(odd):hover {
+    box-shadow: 0 0 50px var(--cor-primaria-medium);
+}
+
+.card:nth-child(even):hover {
+    box-shadow: 0 0 50px var(--cor-primaria-dark);
 }
 
 .card > img {
     width: 15.6rem;
+}
+
+.card:nth-child(odd):hover img {
+    scale: (1.1);
+    box-shadow: 0 0 50px var(--cor-primaria-light);
+}
+
+.card:nth-child(even):hover img {
+    scale: (1.1);
+    box-shadow: 0 0 50px var(--cor-primaria-light);
 }
 
 .card__texto {
@@ -234,4 +251,10 @@
     color: var(--cor-neutra-medium);
     font-family: var(--fonte-texto);
     font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .anuncio {
+        height: 100vh;
+    }
 }
