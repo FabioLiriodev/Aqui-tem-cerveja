@@ -3,126 +3,144 @@
       "alimento": "Bolinho de bacalhau",
       "descricao": "Harmonização com estilo Session IPA",
       "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/bolinho-de-bacalhau.png",
-      "alt": "imagem de uma porção de bolinho de bacalhau com uma fatia de limão em uma cumbuca de barro"
+      "alt": "imagem de uma porção de bolinho de bacalhau com uma fatia de limão em uma cumbuca de barro",
+      "Harmonizacao": "Session IPA"
     },
 
     {
       "alimento": "guacamole",
       "descricao": "Harmonização com estilo Session IPA",
       "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/guacamole.png",
-      "alt": "imagem de uma travessa rústica com molho guacamole e uma porção de nachos"
+      "alt": "imagem de uma travessa rústica com molho guacamole e uma porção de nachos",
+      "Harmonizacao": "Session IPA"
     },
 
     {
         "alimento": "Pizza de calabresa",
         "descricao": "Harmonização com estilo APA",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/pizza-de-calabresa.png",
-        "alt": "imagem de uma pizza de calabresa grande em uma tábua de madeira"
+        "alt": "imagem de uma pizza de calabresa grande em uma tábua de madeira",
+        "Harmonizacao": "American Pale Ale (APA)"
       },
 
       {
         "alimento": "Batatas fritas",
         "descricao": "Harmonização com estilo APA",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/batatas-fritas.png",
-        "alt": "imagem de uma porção de batatas fritas cobertas com ketchup em um prato branco fundo com as bordas onduladas"
+        "alt": "imagem de uma porção de batatas fritas cobertas com ketchup em um prato branco fundo com as bordas onduladas",
+        "Harmonizacao": "American Pale Ale (APA)"
       },
 
       {
         "alimento": "Hambúrguer artesanal",
         "descricao": "Harmonização com estilo IPA",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/hamburguer.png",
-        "alt": "imagem de um hambúrguer artesanal em um prato rústico de coloração cobre"
+        "alt": "imagem de um hambúrguer artesanal em um prato rústico de coloração cobre",
+        "Harmonizacao": "Indian Pale Ale (IPA)"
       },
 
       {
         "alimento": "Comida indiana",
         "descricao": "Harmonização com estilo IPA",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/comida-indiana.png",
-        "alt": "imagem de um prato indiano a base de arroz e ervilhas em uma cumbuca metálica"
+        "alt": "imagem de um prato indiano a base de arroz e ervilhas em uma cumbuca metálica",
+        "Harmonizacao": "Indian Pale Ale (IPA)"
       },
 
       {
         "alimento": "Costela",
         "descricao": "Harmonização com estilo IPA",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/costela.png",
-        "alt": "imagem de uma costela bovina coberta com molho barbecue e folhas aromáticas em uma superfície rústica de madeira"
+        "alt": "imagem de uma costela bovina coberta com molho barbecue e folhas aromáticas em uma superfície rústica de madeira",
+        "Harmonizacao": "Indian Pale Ale (IPA)"
       },
 
       {
         "alimento": "Batatas fritas",
         "descricao": "Harmonização com estilo Lager",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/batatas-fritas.png",
-        "alt": "imagem de uma porção de batatas fritas cobertas com ketchup em um prato branco fundo com as bordas onduladas"
+        "alt": "imagem de uma porção de batatas fritas cobertas com ketchup em um prato branco fundo com as bordas onduladas",
+        "Harmonizacao": "Lager"
       },
 
       {
         "alimento": "Petiscos de boteco",
         "descricao": "Harmonização com estilo Lager",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/petiscos-de-boteco.png",
-        "alt": "imagem de uma porção de linguiça acebolada acompanhada de farofa e molho à campanha servida em uma mesa de madeira"
+        "alt": "imagem de uma porção de linguiça acebolada acompanhada de farofa e molho à campanha servida em uma mesa de madeira",
+        "Harmonizacao": "Lager"
       },
 
       {
         "alimento": "Churrasco",
         "descricao": "Harmonização com estilo Lager",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/churrasco.png",
-        "alt": "imagem de um corte de churrasco mal passado em uma bancada rústica de madeira de coloração preta"
+        "alt": "imagem de um corte de churrasco mal passado em uma bancada rústica de madeira de coloração preta",
+        "Harmonizacao": "Lager"
       },
 
       {
         "alimento": "Queijos crus",
         "descricao": "Harmonização com estilo Weiss",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/queijo-curado.png",
-        "alt": "imagem de um queijo curado fatiado de cor amarela em uma tábua de madeira para cortes"
+        "alt": "imagem de um queijo curado fatiado de cor amarela em uma tábua de madeira para cortes",
+        "Harmonizacao": "Weiss"
       },
 
       {
         "alimento": "Salsichas alemãs",
         "descricao": "Harmonização com estilo Weiss",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/salsicha-alema.png",
-        "alt": "imagem de um prato de salsichas alemãs artesanais acompanhado de tomates confit e uma porção de ketchup servido em um recipiente rústico de madeira escura com alças de corda"
+        "alt": "imagem de um prato de salsichas alemãs artesanais acompanhado de tomates confit e uma porção de ketchup servido em um recipiente rústico de madeira escura com alças de corda",
+        "Harmonizacao": "Weiss"
       },
 
       {
         "alimento": "Comida mexicana",
         "descricao": "Harmonização com estilo Golden Ale",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/comida-mexicana.png",
-        "alt": "imagem de três nachos recheados com carne e feijões servido com limão em uma tábua de madeira para cortes"
+        "alt": "imagem de três nachos recheados com carne e feijões servido com limão em uma tábua de madeira para cortes",
+        "Harmonizacao": "Golden Ale"
       },
 
       {
         "alimento": "Ostras",
         "descricao": "Harmonização com estilo Golden Ale",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/ostras.png",
-        "alt": "imagem de uma porção de ostras servidas com limão galelo servida em um prato de cerâmica de cor salmão"
+        "alt": "imagem de uma porção de ostras servidas com limão galelo servida em um prato de cerâmica de cor salmão",
+        "Harmonizacao": "Golden Ale"
       },
 
       {
         "alimento": "Sobremesas com chocolate",
         "descricao": "Harmonização com estilo Golden Ale",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/sobremesa-chocolate.png",
-        "alt": "imagem de um brownie de chocolate com lascas de chocolate como cobertura servidos em um prato sofisticado de cor cobre em uma mesa de um restaurante chique"
+        "alt": "imagem de um brownie de chocolate com lascas de chocolate como cobertura servidos em um prato sofisticado de cor cobre em uma mesa de um restaurante chique",
+        "Harmonizacao": "Golden Ale"
       },
 
       {
         "alimento": "Queijos curados",
         "descricao": "Harmonização com estilo Dunkel",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/queijo-curado.png",
-        "alt": "imagem de um queijo curado fatiado de cor amarela em uma tábua de madeira para cortes"
+        "alt": "imagem de um queijo curado fatiado de cor amarela em uma tábua de madeira para cortes",
+        "Harmonizacao": "Dunkel"
       },
 
       {
         "alimento": "Doce de leite",
         "descricao": "Harmonização com estilo Dunkel",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/doce-de-leite.png",
-        "alt": "imagem de um pote branco de cerâmica cheio de doce de leite em uma mesa de madeira rústica escura"
+        "alt": "imagem de um pote branco de cerâmica cheio de doce de leite em uma mesa de madeira rústica escura",
+        "Harmonizacao": "Dunkel"
       },
 
       {
         "alimento": "Joelho de porco",
         "descricao": "Harmonização com estilo Amber Lager",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/joelho-de-porco.png",
-        "alt": "imagem de um joelho de porco assando em uma churrasqueira"
+        "alt": "imagem de um joelho de porco assando em uma churrasqueira",
+        "Harmonizacao": "Amber Lager"
         
       },
 
@@ -130,104 +148,119 @@
         "alimento": "Chocolate Amargo",
         "descricao": "Harmonização com estilo Amber Lager",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/chocolate-amargo.png",
-        "alt": "imagem de um pote métalico branco rústico com alça de metal e empunhadeira de madeira com barras e biscoitos de chocolate amargo"
+        "alt": "imagem de um pote métalico branco rústico com alça de metal e empunhadeira de madeira com barras e biscoitos de chocolate amargo",
+        "Harmonizacao": "Amber Lager"
       },
 
       {
         "alimento": "Torta de nozes",
         "descricao": "Harmonização com estilo Stout",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/torta-de-nozes.png",
-        "alt": "imagem de uma fatia de torta de nozes em um prato de sobremesa de cerâmica de cor salmão e um garfo de sobremesa de prata"
+        "alt": "imagem de uma fatia de torta de nozes em um prato de sobremesa de cerâmica de cor salmão e um garfo de sobremesa de prata",
+        "Harmonizacao": "Stout"
       },
 
       {
         "alimento": "Petit Gateau",
         "descricao": "Harmonização com estilo Stout",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/petit-gateau.png",
-        "alt": "imagem de um petit gateau servido em um prato elíptico rústico de pedra em uma mesa de madeira rústica"
+        "alt": "imagem de um petit gateau servido em um prato elíptico rústico de pedra em uma mesa de madeira rústica",
+        "Harmonizacao": "Stout"
       },
 
       {
         "alimento": "Queijo gorgonzola",
-        "descricao": "Harmonização com estilo Stout",
+        "descricao": "Harmonização com estilo Pilsen",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/queijo-gorgonzola.png",
-        "alt": "imagem de um queijo gorgonzola partido em uma tábua de madeira para cortes"
+        "alt": "imagem de um queijo gorgonzola partido em uma tábua de madeira para cortes",
+        "Harmonizacao": "Pilsen"
       },
 
       {
         "alimento": "Salame",
-        "descricao": "Harmonização com estilo Stout",
+        "descricao": "Harmonização com estilo Pilsen",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/salame.png",
-        "alt": "imagem de uma porção de salame cortada em rodelas finas em uma tábua de madeira para cortes"
+        "alt": "imagem de uma porção de salame cortada em rodelas finas em uma tábua de madeira para cortes",
+        "Harmonizacao": "Pilsen"
       },
 
       {
         "alimento": "Queijo brie",
         "descricao": "Harmonização com estilo Witbier",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/queijo-brie.png",
-        "alt": "imagem de um queijo brie fatiado em uma tábua de madeira para cortes"
+        "alt": "imagem de um queijo brie fatiado em uma tábua de madeira para cortes",
+        "Harmonizacao": "Witbier"
       },
 
       {
         "alimento": "Queijo Camembert",
         "descricao": "Harmonização com estilo Witbier",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/queijo-camembert.png",
-         "alt": "imagem de um queijo camembert fatiado em uma tábua de madeira para cortes"
+         "alt": "imagem de um queijo camembert fatiado em uma tábua de madeira para cortes",
+         "Harmonizacao": "Witbier"
       },
 
       {
         "alimento": "Isca de tilápia",
         "descricao": "Harmonização com estilo Witbier",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/peixe-frito.png",
-         "alt": "imagem de uma porção de tilápia empanada servida com limão em uma chapa de aquecimento de pedra"
+         "alt": "imagem de uma porção de tilápia empanada servida com limão em uma chapa de aquecimento de pedra",
+         "Harmonizacao": "Witbier"
       },
 
       {
         "alimento": "Crustáceos e frutos do mar",
         "descricao": "Harmonização com estilo Witbier",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/camarao-frito.png",
-         "alt": "imagem de uma porção de camarão empanado servido com molho de mostarda em um prato rústico de pedra"
+         "alt": "imagem de uma porção de camarão empanado servido com molho de mostarda em um prato rústico de pedra",
+         "Harmonizacao": "Witbier"
       },
 
       {
         "alimento": "Amendoim",
         "descricao": "Harmonização com estilo Pilsen",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/amendoim.png",
-         "alt": "imagem de uma porção de amendoim com casca servido em um pote branco em uma mesa de madeira"
+         "alt": "imagem de uma porção de amendoim com casca servido em um pote branco em uma mesa de madeira",
+         "Harmonizacao": "Pilsen"
       },
 
       {
         "alimento": "Petiscos de boteco",
         "descricao": "Harmonização com estilo Pilsen",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/petiscos-de-boteco.png",
-        "alt": "imagem de uma porção de linguiça acebolada acompanhada de farofa e molho à campanha servida em uma mesa de madeira"
+        "alt": "imagem de uma porção de linguiça acebolada acompanhada de farofa e molho à campanha servida em uma mesa de madeira",
+        "Harmonizacao": "Pilsen"
       },
 
       {
         "alimento": "Comida oriental",
         "descricao": "Harmonização com estilo Pilsen",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/comida-oriental.png",
-        "alt": "imagem de um yakissoba de vegetais com hashi de madeira servido em um prato redondo branco de borda alta"
+        "alt": "imagem de um yakissoba de vegetais com hashi de madeira servido em um prato redondo branco de borda alta",
+        "Harmonizacao": "Pilsen"
       },
 
       {
         "alimento": "Frango assado",
         "descricao": "Harmonização com estilo Pilsen",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/frango-assado.png",
-        "alt": "imagem de dois frangos assados inteiros servidos com molho vermelho em uma tábua de madeira para cortes"
+        "alt": "imagem de dois frangos assados inteiros servidos com molho vermelho em uma tábua de madeira para cortes",
+        "Harmonizacao": "Pilsen"
       },
 
       {
         "alimento": "Azeitonas",
         "descricao": "Harmonização com estilo Pilsen",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/azeitonas.png",
-        "alt": "imagem de uma porção de azeitonas verdes servidas em um pote de vidro transparente pequeno em uma mesa de madeira rústica"
+        "alt": "imagem de uma porção de azeitonas verdes servidas em um pote de vidro transparente pequeno em uma mesa de madeira rústica",
+        "Harmonizacao": "Pilsen"
       },
 
       {
         "alimento": "Salgadinhos fritos e assados",
         "descricao": "Harmonização com estilo Pilsen",
         "imagem": "https://fabioliriodev.github.io/Aqui-tem-cerveja/assets/img/salgadinhos.png",
-        "alt": "imagem de uma porção de salgadinhos fritos servida em um prato branco de formato hexagonal"      
+        "alt": "imagem de uma porção de salgadinhos fritos servida em um prato branco de formato hexagonal",
+        "Harmonizacao": "Pilsen"      
       }
 ]
